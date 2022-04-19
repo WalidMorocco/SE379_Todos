@@ -1,12 +1,10 @@
 import './App.css';
-import {Todo1, Todo2, Todo3} from './Todo';
+import {Todo} from './Todo';
 
 function App() {
   return (
     <div class="todo-container">
-      <Todo1 />
-      <Todo2 />
-      <Todo3 />
+      <Todo />
     </div>
   );
 }
